@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/exp_9.css">
+
+  <title>Exp_17</title>
+</head>
+<body>
+  <img src="img/treino.png" alt="treino" class="normal">
+  <h1>Rotina de Treinos</h1>
+  <form>
+    <p>
+      Exercicio:
+      <input type="text" id="inExercicio" required autofocus>
+    </p>
+    <p>
+      <input type="submit" value="Adicionar"><!-- O submit é necessário para o evento de submit do formulário, mas o botão de concluir e excluir não devem ser do tipo submit para evitar que o formulário seja enviado quando clicados. -->
+      <input type="button" value="Concluir Primeiro" id="btnConcluir">
+      <input type="button" value="Excluir Ultimo" id="btnExcluir">
+      <input type="reset" value="Limpar Campos">
+    </p>
+  </form>
+  <pre></pre>
+  <pre>Treinos Concluidos:
+    <span class="outResp"></span>
+  </pre>
+  <script src="js/exp_17.js"></script>
+</body>
+</html>

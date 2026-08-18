@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exp_8</title>
+</head>
+<body>
+  <script>
+    while(true){
+      let numeroSorteado = Number(prompt("Digite um numero de 1 a 10: "))
+      if(numeroSorteado > 10){
+        alert(`Numero fora do intervalo do sorteio!`)
+        continue
+      }else if(numeroSorteado == 3){
+        alert(`Parabens! Você acertou o numero do sorteio!`)
+        break
+      }else{
+        alert(`Ops, numero errado!`)
+        continue
+      }
+    }
+  </script>
+</body>
+</html>

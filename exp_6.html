@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exp_6</title>
+</head>
+<body>
+  <script>
+    let aux = 0
+    do {
+      const num = Number(prompt("Digite um numero: "))
+      aux += num
+      let resp = confirm("Deseja Continuar?")//ok == true; cancel == false
+      if(!resp){
+        break
+      }
+    } while (true);//o laço termina apenas no break
+    alert(`A soma dos numero é: ${aux}`)
+  </script>
+</body>
+</html>
